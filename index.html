@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NatashaLorenzoni</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
+    <link href="./styles.css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/main.css" rel="stylesheet" type="text/css" />
+
+    <script src="java/java.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Page d'acceuil
+      - Titre, image et souris
+      -->
+      <div class="image main-image"><img src="./images/carre.jpg" class="square"/></div>
+      <div id="barrenoir"></div>
+      <div id="title">
+        <span> NATASHA LORENZONI </span>
+      </div>
+
+      <!-- Souris qui invite à descendre en bas de page-->
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+
+      <!-- MENU ET NAVBAR -->
+      <div>
+        <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            Une fausse / Cachée checkbox qui sera utiisé pour recevoir un click
+            et donc affichée le menu.
+            -->
+            <input type="checkbox"/>
+            
+            <!-- Les spans vont agir en tant que barres 
+              qui vont composer le menu burger -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Menu au sein du bouton burger
+            -->
+            <ul id="menu">
+              <a href="#"><li>Acceuil</li></a>
+              <a href="#"><li>Portfolio</li></a>
+              <a href="#"><li>Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+      <!-- Images Main-->
+      <div><img src="images/photo.png"  class="photo"></div>
+    </main>
+
+
+    <footer></footer>
+  </body>
+</html>
