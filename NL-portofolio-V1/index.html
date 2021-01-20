@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NatashaLorenzoni</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"/>
+    <link href="./styles.css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/main.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/main_experience.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/main_compétences.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css/main_formation.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <header class="text-center">
+      <!-- Page d'acceuil
+      - Image et souris
+      -->
+      <div class="image main-image"><img src="./images/carre.jpg" alt="image de présentation" class="square"/></div>
+      <div id="barrenoir"></div>
+
+      <!-- Souris qui invite à descendre en bas de page-->
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+
+      <!-- MENU ET NAVBAR -->
+      <div>
+        <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            Une fausse / Cachée checkbox qui sera utiisé pour recevoir un click
+            et donc afficher le menu.
+            -->
+            <input type="checkbox"/>
+            
+            <!-- Les spans vont agir en tant que barres 
+              qui vont composer le menu burger -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Menu au sein du bouton burger
+            -->
+            <ul id="menu">
+              <a href="#"><li>Acceuil</li></a>
+              <a href="#"><li>Portfolio</li></a>
+              <a href="#"><li>Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container">
+      <!-- Photo Main-->
+      <div class="row">        
+        <div class="col photo_principal"><img src="images/photo.png" alt="Photo personnelle"  class="photo"></div>
+          <div id="title">
+            <span> NATASHA LORENZONI </span>
+          </div>
+        <div class="col text_description"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Assumenda sit itaque atque, culpa sed sapiente odio, ex nemo pariatur natus eos quasi
+          eligendi qui non excepturi quibusdam ullam tempore, sint dignissimos odit! Mollitia,
+          officia. Fugiat ducimus laboriosam repellendus consectetur possimus.
+        </p></div>
+      </div>
+      <div id="barrenoir_photo_top"></div>
+      <div id="barrenoir_photo_bottom"></div>
+
+      <!-- Les compétences -->
+
+      <div class="container">
+        <div class="mb-5"><h1>Compétences</h1></div>
+        <div class="row text_">
+          <div class="col text-center">
+            <img src="images/infographie.svg" alt="infographie" class="icon_skills">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas delectus in, beatae
+               repudiandae facere distinctio eveniet temporibus sequi vel reiciendis?
+            </p>
+          </div>
+          <div class="col text-center">
+            <img src="images/language_programmation.svg" alt="language de programmation" class="icon_skills">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, a omnis consequatur
+               corporis ad officiis ab autem fugit quam facilis?
+            </p>
+          </div>
+          <div class="col text-center">
+            <img src="images/langues.svg" alt="Langues parlées" class="icon_skills">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae nihil
+               error magnam et placeat cupiditate eos corporis, voluptates sint!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Les expériences -->
+
+      <div class="container contain">
+        <div id="title_three"><h1>Expériences</h1></div>
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>First Year</h3>
+             <span>Some work experience</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="timeline-content">
+             <h3>Second Year</h3>
+             <span>Some work experience</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          </div>
+         <div class="marker"></div>
+       </div>
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Third Year</h3>
+             <span>Some work experience</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="timeline-content">
+             <h3>Fourth Year</h3>
+             <span>Some work experience</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          </div>
+         <div class="marker"></div>
+       </div>
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Fifth Year</h3>
+             <span>Some work experience</span>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          </div>
+       </div>
+      </div>
+
+
+      <!-- Formation -->
+
+
+      
+    </main>
+
+
+    <footer></footer>
+
+    
+  <script src="java/main_compétences.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.photo
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 333px;
+    height: 500px;
+}
+
+.photo_principal {
+    margin-left: 380px;
+    z-index: 0;
+}
+
+#title {
+    position: absolute;
+    top: 150px;
+    left: 65%;
+    color: #FFF;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+
+#title span {
+  background: -webkit-linear-gradient(black, #4d081e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_description {
+    margin-top: 250px;
+}
+
+main
+{
+    padding-top: 150px;
+}
+
+#barrenoir_photo_top{
+    padding: 10px;
+    background-color: #1E0B0B;
+    width: 35%;
+    top: 125px;
+    right:5%;    
+    position: absolute;
+    z-index: 1;
+}
+
+#barrenoir_photo_bottom{
+    padding: 10px;
+    background-color: #1E0B0B;
+    width: 35%;
+    top: 500px;
+    left: 15%;    
+    position: absolute;
+    z-index: 1;
+}

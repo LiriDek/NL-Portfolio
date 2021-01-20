@@ -1,0 +1,11 @@
+.icon_skills {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background: none;
+
+}
+
+.icon_skills:hover{
+    color: blueviolet;
+}
