@@ -1,0 +1,134 @@
+#title_three {
+    margin-bottom: 65px;
+ }
+ 
+.container {
+    width: 80%;
+
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+.contain:before {
+    content: '';
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 900px;
+    background: #CCD1D9;
+    z-index: 1
+ }
+
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+ }
+ 
+.timeline-block-right {
+    float: right;
+ }
+ 
+.timeline-block-left {
+    float: left;
+    direction: ltr;
+ }
+ 
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7Fb;
+    background:rgb(65, 61, 61);
+    margin-top: 10px;
+    z-index: 1
+ }
+ 
+.timeline-content {
+    width: 90%;
+    padding: 0 15px;
+    color: black
+ }
+ 
+.timeline-block-left .timeline-content {
+   text-align:right;
+ }
+ 
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #9D0564;
+ }
+ 
+.timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+ }
+ 
+.timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+ }
+
+
+ /* End experiences */
+
+ /*
+
+ <section>
+            <div class="container contain">
+                <div id="title_three"></div>
+                <div class="timeline-block timeline-block-right">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>First Year</h3>
+                        <span>Some work experience</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                    </div>
+               </div>
+            
+               <div class="timeline-block timeline-block-left">
+                    <div class="timeline-content">
+                        <h3>Second Year</h3>
+                        <span>Some work experience</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                    </div>
+                    <div class="marker"></div>
+               </div>
+            
+               <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                     <h3>Third Year</h3>
+                     <span>Some work experience</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                  </div>
+               </div>
+            
+               <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                     <h3>Fourth Year</h3>
+                     <span>Some work experience</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                  </div>
+                 <div class="marker"></div>
+               </div>
+        </section>
+
+        */

@@ -35,6 +35,18 @@ header nav a > img {
     padding-right: 5px;
 }
 
+.square {
+    width: 450px;
+}
+
+
+.hr {
+    width: 150px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-bottom: black;
+}
+
 .soulignement {
     text-decoration: none;
     color: #47525d;
@@ -140,7 +152,8 @@ button {
 .filter-button.active{
     color: #ffffff;
     background-color:#9D0564;
-	outline:none;
+    outline:none;
+    border: none;
 }
 .gallery_product{
     margin: 0px;
@@ -186,3 +199,45 @@ button {
     height: 275px;
 }
 
+/* end images */
+
+
+/* Compétences */
+
+.background-comp {
+    background-color: black;
+    position:absolute;
+    left:0;
+    right:0;
+    padding: 25px;
+    text-align: center;
+}
+
+.p-comp {
+    color: white;
+    padding: 10px;
+}
+
+/* end compétences */
+
+
+/* Experiences */
+
+.sous-comp {
+    margin-top: 350px;
+}
+
+
+
+ /* Contact */
+
+.bouton-last-section {
+    text-align: center;
+ }
+ 
+
+ /* Footer */
+
+ .cat {
+     width: 150px;
+ }
